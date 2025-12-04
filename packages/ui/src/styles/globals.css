@@ -191,21 +191,17 @@
   --color-information-900: #1e3a8a;
   --color-information-950: #172e54;
 
-  /* Neutral Colors */
-  --color-neutral-white: #ffffff;
-  --color-neutral-black: #000000;
-
-  --font-size-2xs: 0.6875rem;  /* 11px */
-  --font-size-xs: 0.75rem;     /* 12px */
-  --font-size-sm: 0.875rem;    /* 14px */
-  --font-size-base: 1rem;      /* 16px */
-  --font-size-lg: 1.125rem;    /* 18px */
-  --font-size-xl: 1.25rem;     /* 20px */
-  --font-size-2xl: 1.5rem;     /* 24px */
-  --font-size-3xl: 1.875rem;   /* 30px */
-  --font-size-4xl: 2.5rem;     /* 40px */
-  --font-size-5xl: 3.75rem;    /* 60px */
-  --font-size-6xl: 5rem;       /* 80px */
+  --text-size-2xs: 0.6875rem;  /* 11px */
+  --text-size-xs: 0.75rem;     /* 12px */
+  --text-size-sm: 0.875rem;    /* 14px */
+  --text-size-base: 1rem;      /* 16px */
+  --text-size-lg: 1.125rem;    /* 18px */
+  --text-size-xl: 1.25rem;     /* 20px */
+  --text-size-2xl: 1.5rem;     /* 24px */
+  --text-size-3xl: 1.875rem;   /* 30px */
+  --text-size-4xl: 2.5rem;     /* 40px */
+  --text-size-5xl: 3.75rem;    /* 60px */
+  --text-size-6xl: 5rem;       /* 80px */
 }
 
 .dark {
@@ -414,17 +410,17 @@
   --color-neutral-white: var(--color-neutral-white);
   --color-neutral-black: var(--color-neutral-black);
 
-  --font-size-2xs: var(--font-size-2xs);
-  --font-size-xs: var(--font-size-xs);
-  --font-size-sm: var(--font-size-sm);
-  --font-size-base: var(--font-size-base);
-  --font-size-lg: var(--font-size-lg);
-  --font-size-xl: var(--font-size-xl);
-  --font-size-2xl: var(--font-size-2xl);
-  --font-size-3xl: var(--font-size-3xl);
-  --font-size-4xl: var(--font-size-4xl);
-  --font-size-5xl: var(--font-size-5xl);
-  --font-size-6xl: var(--font-size-6xl);
+  --text-size-2xs: var(--text-size-2xs);
+  --text-size-xs: var(--text-size-xs);
+  --text-size-sm: var(--text-size-sm);
+  --text-size-base: var(--text-size-base);
+  --text-size-lg: var(--text-size-lg);
+  --text-size-xl: var(--text-size-xl);
+  --text-size-2xl: var(--text-size-2xl);
+  --text-size-3xl: var(--text-size-3xl);
+  --text-size-4xl: var(--text-size-4xl);
+  --text-size-5xl: var(--text-size-5xl);
+  --text-size-6xl: var(--text-size-6xl);
 }
 
 @layer base {

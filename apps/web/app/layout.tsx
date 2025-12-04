@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 const fontSans = Lexend({
   subsets: ["latin"],
   variable: "--font-sans",
+  weight: ["400", "700"],
 });
 
 export default function RootLayout({

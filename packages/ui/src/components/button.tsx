@@ -12,11 +12,13 @@ const buttonVariants = cva(
         default: "bg-primary text-primary-foreground hover:bg-primary-600",
         outline:
           "border border-primary bg-transparent hover:bg-primary hover:text-primary-foreground text-primary",
+        outlineV2:
+          "border border-gray-200 bg-transparent hover:text-primary hover:border-primary text-dark-500",
         secondary: "bg-white text-primary hover:bg-white/85",
       },
       size: {
-        default: "h-14 px-6 py-4 rounded-[10px]",
-        md: "h-12 px-5 py-3 rounded-[8px]"
+        default: "h-12 md:h-14 px-6 py-4 rounded-[10px]",
+        md: "h-10 md:h-12 px-5 py-3 rounded-[8px]"
       },
     },
     defaultVariants: {

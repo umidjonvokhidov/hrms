@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${fontSans.variable} font-sans antialiased `}>
+      <body className={`${fontSans.variable} font-sans antialiased`}>
         <Providers>
           <Navbar />
-          {children}
+          <main className="w-full pt-[100px]">{children}</main>
           <Footer />
         </Providers>
       </body>

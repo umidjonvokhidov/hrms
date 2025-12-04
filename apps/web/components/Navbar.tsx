@@ -24,7 +24,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full flex justify-center">
+    <nav className="w-full flex justify-center fixed h-[100px] mb-[100px] z-5 bg-white">
       <div className="flex w-full justify-between items-center max-w-[1440px] px-4 md:px-6 lg:px-10 xl:px-24 py-6">
         <Sheet open={open} onOpenChange={() => setOpen(!open)}>
           <div className="flex items-center gap-x-2.5">

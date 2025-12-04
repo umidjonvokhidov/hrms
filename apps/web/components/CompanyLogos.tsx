@@ -1,6 +1,6 @@
 const CompanyLogos = () => {
   return (
-    <div>CompanyLogos</div>
+    <section className="flex"><div></div></section>
   )
 }
 export default CompanyLogos

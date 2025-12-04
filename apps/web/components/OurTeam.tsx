@@ -1,10 +1,16 @@
-import SectionHeading from "./SectionHeading";
+import Heading from "./Heading";
 import TeamCards from "./TeamCards";
 
 const OurTeam = () => {
   return (
     <section>
-      <SectionHeading />
+      <Heading
+        size="lg"
+        maxWidthClassName=""
+        title="Meet Our Incredible Dedicated Team"
+        description="It is a long established fact that a reader will be distracted by the readable content."
+        badgeTitle="Our Team"
+      />
       <TeamCards />
     </section>
   );

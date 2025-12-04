@@ -3,6 +3,18 @@ declare interface NavLink {
   href: string;
 }
 
+declare interface Heading {
+  size: "lg" | "xl";
+  maxWidthClassName: string;
+  badgeTitle?: string;
+  badgeTag?: string;
+  title: string;
+  description: string;
+  primaryButton?: string;
+  primaryButtonIcon?: boolean;
+  secondaryButton?: string;
+}
+
 declare interface CompanyLogo {
   id: number;
   logo: any;

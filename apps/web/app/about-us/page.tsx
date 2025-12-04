@@ -1,15 +1,21 @@
-import AboutCompany from "@/components/AboutCompany"
-import CompanyLogos from "@/components/CompanyLogos"
-import CompanyStatistics from "@/components/CompanyStatistics"
-import HeroHeading from "@/components/HeroHeading"
-import OurPricingPlan from "@/components/OurPricingPlan"
-import OurTeam from "@/components/OurTeam"
-import Testimonials from "@/components/Testimonials"
+import AboutCompany from "@/components/AboutCompany";
+import CompanyLogos from "@/components/CompanyLogos";
+import CompanyStatistics from "@/components/CompanyStatistics";
+import Heading from "@/components/Heading";
+import OurPricingPlan from "@/components/OurPricingPlan";
+import OurTeam from "@/components/OurTeam";
+import Testimonials from "@/components/Testimonials";
 
 const AboutUsPage = () => {
   return (
     <>
-      <HeroHeading />
+      <Heading
+        size="xl"
+        maxWidthClassName=""
+        title="Our Product Dedicate To Make Your HRMS Smoother"
+        description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum."
+        primaryButton="Get Started For Free"
+      />
       <CompanyLogos />
       <AboutCompany />
       <CompanyStatistics />
@@ -17,6 +23,6 @@ const AboutUsPage = () => {
       <OurPricingPlan />
       <Testimonials />
     </>
-  )
-}
-export default AboutUsPage
+  );
+};
+export default AboutUsPage;

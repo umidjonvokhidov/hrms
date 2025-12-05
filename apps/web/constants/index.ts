@@ -498,7 +498,7 @@ export const faqItems: FAQItem[] = [
   },
 ];
 
-export const testimonialCards: TestimonialCard[] = [
+export const testimonialCardsData: TestimonialCardData[] = [
   {
     name: "Stephen Hardly",
     role: "Founder",

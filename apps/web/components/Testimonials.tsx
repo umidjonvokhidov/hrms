@@ -3,7 +3,7 @@ import TestimonialCards from "./TestimonialCards";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section className="section-layout">
       <Heading
         size="lg"
         maxWidthClassName=""

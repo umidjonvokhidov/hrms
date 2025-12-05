@@ -48,12 +48,18 @@ declare interface FAQItem {
   description: string;
 }
 
-declare interface TestimonialCard {
+declare interface TestimonialCardData {
   name: string;
   role: string;
   avatar: any;
   description: string;
   date: string;
+}
+
+declare interface ProfileCardData {
+  avatar: any;
+  name: string;
+  role: string;
 }
 
 declare interface FooterNavLink {

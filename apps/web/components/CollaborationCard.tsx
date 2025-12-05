@@ -8,7 +8,7 @@ const CollaborationCard = ({
   title,
 }: CollaborationCardData) => {
   return (
-    <div className="flex flex-col items-start bg-white rounded-2xl border border-gray-50 shadow-2xl p-6">
+    <div className="flex flex-col items-start bg-white rounded-2xl border border-gray-50 hover:shadow-primary-950 transition-all shadow-2xl hover:shadow-2xs p-6">
       <div className="flex justify-between items-start w-full">
         <Icon />
         <Link

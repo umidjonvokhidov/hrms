@@ -26,13 +26,17 @@ const PricingCard = ({
           </h4>
         ) : (
           <h4 className="pb-4 text-4xl text-dark-500 group-even:text-white font-bold w-full border-b border-gray-100">
-            {price}<span className="text-lg font-normal">/Month</span>
+            {price}
+            <span className="text-lg font-normal">/Month</span>
           </h4>
         )}
       </div>
       <ul className="flex flex-col gap-y-4">
-        {benefits.map((benefit: string) => (
-          <li className="flex items-center gap-x-3 text-base text-dark-500 group-even:text-white font-normal">
+        {benefits.map((benefit: string, id: number) => (
+          <li
+            key={id}
+            className="flex items-center gap-x-3 text-base text-dark-500 group-even:text-white font-normal"
+          >
             <CheckCircle /> {benefit}
           </li>
         ))}

@@ -18,6 +18,7 @@ declare interface Heading {
 declare interface CompanyLogo {
   id: number;
   logo: any;
+  link: string;
 }
 
 declare interface KeyFeatureCard {

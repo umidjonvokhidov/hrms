@@ -93,22 +93,27 @@ export const companyLogos: CompanyLogo[] = [
   {
     id: 1,
     logo: Logo1,
-  },
-  {
-    id: 2,
-    logo: Logo2,
-  },
-  {
-    id: 3,
-    logo: Logo3,
+    link: "https://slack.com/",
   },
   {
     id: 4,
     logo: Logo4,
+    link: "https://www.zendesk.com/",
+  },
+  {
+    id: 2,
+    logo: Logo2,
+    link: "https://docs.mufex.finance/mufex",
   },
   {
     id: 5,
     logo: Logo5,
+    link: "https://www.udemy.com/",
+  },
+  {
+    id: 3,
+    logo: Logo3,
+    link: "https://www.oracle.com/",
   },
 ];
 
@@ -179,8 +184,8 @@ export const allJobs: Job[] = [
       "Stay updated with emerging technologies and industry trends, proposing innovative solutions to business challenges",
       "Collaborate with cross-functional teams including product, design, and QA to deliver high-quality features",
       "Write comprehensive technical documentation for systems, processes, and APIs",
-      "Implement and advocate for automated testing, continuous integration, and deployment best practices"
-    ]
+      "Implement and advocate for automated testing, continuous integration, and deployment best practices",
+    ],
   },
   {
     title: "Lead UI/UX Designer",
@@ -218,8 +223,8 @@ export const allJobs: Job[] = [
       "Ensure consistency across all platforms while optimizing designs for specific device capabilities and constraints",
       "Mentor junior designers and establish design best practices within the organization",
       "Stay current with design trends, tools, and technologies, bringing innovative ideas to the team",
-      "Advocate for accessibility and inclusive design principles throughout the product development process"
-    ]
+      "Advocate for accessibility and inclusive design principles throughout the product development process",
+    ],
   },
   {
     title: "Business Development Manager",
@@ -257,8 +262,8 @@ export const allJobs: Job[] = [
       "Represent the company at industry events, conferences, and networking functions to build brand awareness",
       "Collaborate with marketing to develop targeted campaigns and sales collateral for different market segments",
       "Provide market feedback to product teams to inform roadmap decisions and competitive positioning",
-      "Mentor junior business development staff and contribute to the development of sales processes and methodologies"
-    ]
+      "Mentor junior business development staff and contribute to the development of sales processes and methodologies",
+    ],
   },
   {
     title: "Business Analyst",
@@ -296,8 +301,8 @@ export const allJobs: Job[] = [
       "Monitor project progress and outcomes, measuring success against defined metrics and KPIs",
       "Develop and maintain business process documentation, including workflows, procedures, and user guides",
       "Facilitate meetings and workshops to align stakeholders, resolve conflicts, and drive decisions",
-      "Create and maintain data dictionaries, metadata repositories, and other information management artifacts"
-    ]
+      "Create and maintain data dictionaries, metadata repositories, and other information management artifacts",
+    ],
   },
   {
     title: "React JS Developer",
@@ -336,8 +341,8 @@ export const allJobs: Job[] = [
       "Troubleshoot and resolve technical issues, performing root cause analysis and implementing preventative measures",
       "Collaborate with UX/UI designers to implement pixel-perfect interfaces that work across different devices and browsers",
       "Optimize applications for maximum speed and scalability, implementing performance monitoring and improvement strategies",
-      "Stay current with React ecosystem developments, evaluating new libraries and tools for potential adoption"
-    ]
+      "Stay current with React ecosystem developments, evaluating new libraries and tools for potential adoption",
+    ],
   },
   {
     title: "Social Media Marketing Specialist",
@@ -375,9 +380,9 @@ export const allJobs: Job[] = [
       "Stay updated with social media trends, platform updates, and best practices to maintain competitive advantage",
       "Monitor brand mentions and industry conversations, engaging appropriately and escalating issues when necessary",
       "Assist in managing social media advertising campaigns, including budget tracking and performance analysis",
-      "Create and maintain social media calendars, ensuring consistent posting schedules and thematic alignment"
-    ]
-  }
+      "Create and maintain social media calendars, ensuring consistent posting schedules and thematic alignment",
+    ],
+  },
 ];
 
 export const aboutCompanyCards: AboutCompanyCard[] = [
@@ -575,8 +580,6 @@ export const footerLinks: FooterLinkSection[] = [
     ],
   },
 ];
-
-
 
 export const teamMembers: TeamMember[] = [
   {
@@ -917,5 +920,3 @@ Many companies outgrow their HR systems during hypergrowth, forcing expensive mi
     comments: 9,
   },
 ];
-
-

@@ -28,14 +28,14 @@ declare interface KeyFeatureCardData {
   link: string;
 }
 
-declare interface CollaborationCard {
+declare interface CollaborationCardData {
   title: string;
   description: string;
   icon: any;
   link: string;
 }
 
-declare interface PricingCard {
+declare interface PricingCardData {
   plan: string;
   description: string;
   price: string;

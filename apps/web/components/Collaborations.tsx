@@ -1,17 +1,20 @@
+import Image from "next/image";
 import CollaborationCards from "./CollaborationCards";
 import Heading from "./Heading";
+import CollaborationImg from "@workspace/assets/images/collaboration.png";
 
 const Collaborations = () => {
   return (
-    <section>
+    <section className="flex flex-col gap-y-10 md:gap-y-12 lg:gap-y-16 py-12 px-4 md:py-16 md:px-8 lg:py-20 lg:px-24">
       <Heading
         size="lg"
-        maxWidthClassName=""
-        title="The Fastest and Most FlexibleHRMS You'll Ever Use"
+        maxWidthClassName="max-w-[735px]"
+        title="The Fastest and Most Flexible HRMS You'll Ever Use"
         description="It is a long established fact that a reader will be distracted by the readable content."
         badgeTitle="Collaborations"
       />
       <CollaborationCards />
+      <Image src={CollaborationImg} width={0} height={0} sizes="100vw" className="w-full max-w-[1132px] mx-auto" alt="Collaboration" />
     </section>
   );
 };

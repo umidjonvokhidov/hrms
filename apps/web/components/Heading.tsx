@@ -47,7 +47,7 @@ const Heading = ({
             {title}
           </h1>
         ) : (
-          <h2 className="relative w-auto mx-auto text-3xl md:text-4xl lg:text-5xl text-dark-500 text-center font-bold">
+          <h2 className="relative w-auto mx-auto text-3xl md:text-4xl lg:text-5xl text-dark-500 leading-tight text-center font-bold">
             <TextDec className="shrink-0 absolute inline-flex scale-80 md:scale-90 lg:scale-100 -translate-y-6 -translate-x-7 md:-translate-y-6 md:-translate-x-6.5 lg:-translate-y-6.5 lg:-translate-x-6.5" />
             {title}
           </h2>

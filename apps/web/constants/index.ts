@@ -65,7 +65,7 @@ export const navLinks: NavLink[] = [
   },
 ];
 
-export const collaborationCards: CollaborationCard[] = [
+export const collaborationCardsData: CollaborationCardData[] = [
   {
     title: "Real Time Data, Blazingly Fast",
     description:
@@ -427,7 +427,7 @@ export const companyStatistics: CompanyStatistic[] = [
   },
 ];
 
-export const pricingCards: PricingCard[] = [
+export const pricingCardsData: PricingCardData[] = [
   {
     plan: "Freemium Plan",
     description:
@@ -447,7 +447,7 @@ export const pricingCards: PricingCard[] = [
     plan: "Premium Plan",
     description:
       "It is a long established fact that a reader will be distracted by the readable content.",
-    price: "$25/Month",
+    price: "$25",
     slug: "premium",
     benefits: [
       "5 Account Collaboration",
@@ -462,7 +462,7 @@ export const pricingCards: PricingCard[] = [
     plan: "Organization Plan",
     description:
       "It is a long established fact that a reader will be distracted by the readable content.",
-    price: "$50/Month",
+    price: "$50",
     slug: "organization",
     benefits: [
       "Unlimited Account Collaboration",

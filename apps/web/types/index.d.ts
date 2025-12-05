@@ -21,7 +21,7 @@ declare interface CompanyLogo {
   link: string;
 }
 
-declare interface KeyFeatureCard {
+declare interface KeyFeatureCardData {
   title: string;
   description: string;
   image: any;

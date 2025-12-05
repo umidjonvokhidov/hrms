@@ -117,7 +117,7 @@ export const companyLogos: CompanyLogo[] = [
   },
 ];
 
-export const keyFeatureCards: KeyFeatureCard[] = [
+export const KeyFeaturesData: KeyFeatureCardData[] = [
   {
     title: "Revolutionises the Way You Manage Your HR Tasks",
     description:

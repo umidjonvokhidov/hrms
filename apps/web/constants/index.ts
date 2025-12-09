@@ -19,12 +19,12 @@ import TestAvatar3 from "@workspace/assets/images/testimonial-avatar-3.png";
 import TestAvatar4 from "@workspace/assets/images/testimonial-avatar-4.png";
 import TestAvatar5 from "@workspace/assets/images/testimonial-avatar-5.png";
 import TestAvatar6 from "@workspace/assets/images/testimonial-avatar.png";
-import Team1 from "@workspace/assets/images/team-1.jpg";
-import Team2 from "@workspace/assets/images/team-2.jpg";
-import Team3 from "@workspace/assets/images/team-3.jpg";
-import Team4 from "@workspace/assets/images/team-4.jpg";
-import Team5 from "@workspace/assets/images/team-5.jpg";
-import Team6 from "@workspace/assets/images/team-6.jpg";
+import Team1 from "@workspace/assets/images/team-1.png";
+import Team2 from "@workspace/assets/images/team-2.png";
+import Team3 from "@workspace/assets/images/team-3.png";
+import Team4 from "@workspace/assets/images/team-4.png";
+import Team5 from "@workspace/assets/images/team-5.png";
+import Team6 from "@workspace/assets/images/team-6.png";
 import BlogImage1 from "@workspace/assets/images/blog-1.jpg";
 import BlogImage2 from "@workspace/assets/images/blog-2.jpg";
 import BlogImage3 from "@workspace/assets/images/blog-3.jpg";
@@ -588,7 +588,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team1,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://twitter.com" },
     ],
   },
   {
@@ -597,7 +597,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team2,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://x.com" },
     ],
   },
   {
@@ -606,7 +606,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team3,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://x.com" },
     ],
   },
   {
@@ -615,7 +615,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team4,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://x.com" },
     ],
   },
   {
@@ -624,7 +624,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team5,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://x.com" },
     ],
   },
   {
@@ -633,7 +633,7 @@ export const teamMembers: TeamMember[] = [
     avatar: Team6,
     socials: [
       { platform: "linkedin", url: "https://linkedin.com" },
-      { platform: "twitter", url: "https://twitter.com" },
+      { platform: "x", url: "https://x.com" },
     ],
   },
 ];

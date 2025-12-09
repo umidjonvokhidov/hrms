@@ -7,7 +7,7 @@ import EmailIcon from "@workspace/assets/icons/mail.svg";
 import LocationIcon from "@workspace/assets/icons/location.svg";
 import FacebookIcon from "@workspace/assets/icons/facebook.svg";
 import InstagramIcon from "@workspace/assets/icons/instagram.svg";
-import TwitterIcon from "@workspace/assets/icons/twitter.svg";
+import XIcon from "@workspace/assets/icons/X.svg";
 import Link from "next/link";
 
 const Footer = () => {
@@ -72,8 +72,8 @@ const Footer = () => {
               <Link href={"instagram.com"} className="group">
                 <InstagramIcon className="group-hover:text-primary text-white transition-colors"/>
               </Link>
-              <Link href={"twitter.com"} className="group">
-                <TwitterIcon className="group-hover:text-primary text-white transition-colors"/>
+              <Link href={"x.com"} className="group">
+                <XIcon className="group-hover:text-primary text-white transition-colors"/>
               </Link>
             </div>
           </div>

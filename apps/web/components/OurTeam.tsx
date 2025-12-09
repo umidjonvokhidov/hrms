@@ -3,7 +3,7 @@ import TeamCards from "./TeamCards";
 
 const OurTeam = () => {
   return (
-    <section>
+    <section className="section-layout py-10 md:py-28 lg:py-40">
       <Heading
         size="lg"
         className=""

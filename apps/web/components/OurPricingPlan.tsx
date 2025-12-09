@@ -6,7 +6,7 @@ const OurPricingPlan = () => {
     <section className="section-layout">
       <Heading
         size="lg"
-        maxWidthClassName=""
+        className=""
         badgeTitle="Our Pricing Plan"
         title="We Provide Various Packages For You"
         description="It is a long established fact that a reader will be distracted by the readable content."

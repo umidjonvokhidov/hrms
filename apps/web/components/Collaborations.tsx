@@ -8,7 +8,7 @@ const Collaborations = () => {
     <section className="section-layout">
       <Heading
         size="lg"
-        maxWidthClassName="max-w-[735px]"
+        className="max-w-[735px]"
         title="The Fastest and Most Flexible HRMS You'll Ever Use"
         description="It is a long established fact that a reader will be distracted by the readable content."
         badgeTitle="Collaborations"

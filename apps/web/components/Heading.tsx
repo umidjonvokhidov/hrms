@@ -12,14 +12,14 @@ const Heading = ({
   secondaryButton,
   title,
   size,
-  maxWidthClassName,
+  className,
   primaryButtonIcon = true,
 }: Heading) => {
   return (
     <header
       className={cn(
         "mx-auto w-full flex flex-col items-center gap-y-10",
-        maxWidthClassName
+        className
       )}
     >
       <div

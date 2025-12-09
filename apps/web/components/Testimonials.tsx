@@ -6,7 +6,7 @@ const Testimonials = () => {
     <section className="section-layout">
       <Heading
         size="lg"
-        maxWidthClassName=""
+        className=""
         badgeTitle="Testimonials"
         title="Satisfied Client From Big Brands"
         description="It is a long established fact that a reader will be distracted by the readable content."

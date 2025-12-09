@@ -411,19 +411,19 @@ export const companyStatistics: CompanyStatistic[] = [
     metric: "95%",
     title: "Accurate Data Analytics",
     description:
-      "We provide highly accurate analytics that help teams make informed decisions. Our reporting is built to surface actionable insights and reduce ambiguity in people-related metrics.",
+      "We deliver highly accurate, actionable analytics to inform decisions and reduce ambiguity in people-related metrics.",
   },
   {
     metric: "2022",
     title: "Company Founded",
     description:
-      "Founded with a mission to simplify HR workflows, we focus on building reliable tools that scale with teams. Since inception we have prioritized performance, security, and customer feedback.",
+      "Founded in 2022 to simplify HR workflows, we build reliable, scalable tools focused on performance, security, and user feedback.",
   },
   {
     metric: "250+",
     title: "Satisfied Companies",
     description:
-      "Hundreds of companies trust our platform to manage HR operations and improve team productivity. We continue to grow our customer base through strong support and product improvements.",
+      "Trusted by 250+ companies to manage HR operations and boost productivity through a platform supported by continuous improvements.",
   },
 ];
 

@@ -5,7 +5,7 @@ declare interface NavLink {
 
 declare interface Heading {
   size: "lg" | "xl";
-  maxWidthClassName: string;
+  className: string;
   badgeTitle?: string;
   badgeTag?: string;
   title: string;

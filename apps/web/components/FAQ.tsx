@@ -12,7 +12,7 @@ const FAQ = () => {
     <section className="section-layout bg-gray-50">
       <Heading
         size="lg"
-        maxWidthClassName=""
+        className=""
         badgeTitle="Frequently Asked Questions"
         title="Questions Are Often Asked To Us"
         description="It is a long established fact that a reader will be distracted by the readable content."

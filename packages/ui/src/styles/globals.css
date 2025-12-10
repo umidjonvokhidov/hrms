@@ -4,6 +4,7 @@
 @source "../**/*.{ts,tsx}";
 
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -22,8 +23,8 @@
   --muted-foreground: oklch(0.712 0.0101 292.7124);
   --accent: oklch(0.9731 0 0);
   --accent-foreground: oklch(0.2001 0.0139 291.6378);
-  --destructive: oklch(0.9642 0.0163 12.7801);
-  --destructive-foreground: oklch(0.6753 0.1873 18.3462);
+  --destructive: oklch(0.6368 0.2078 25.33);
+  --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.9437 0.0027 286.3486);
   --input: oklch(1 0 0);
   --ring: oklch(0.5659 0.2283 285.3132);
@@ -215,8 +216,8 @@
   --muted-foreground: oklch(0.712 0.0101 292.7124);
   --accent: oklch(0.2001 0.0139 291.6378);
   --accent-foreground: oklch(0.712 0.0101 292.7124);
-  --destructive: oklch(0.2499 0.0286 347.9347);
-  --destructive-foreground: oklch(0.6753 0.1873 18.3462);
+  --destructive: oklch(0.6368 0.2078 25.33);
+  --destructive-foreground: oklch(0.6368 0.2078 25.33);
   --border: oklch(0.317 0.0124 292.2358);
   --input: oklch(0.2001 0.0139 291.6378);
   --ring: oklch(0.5659 0.2283 285.3132);

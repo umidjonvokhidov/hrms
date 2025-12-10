@@ -59,7 +59,8 @@ declare interface TestimonialCardData {
 declare interface ProfileCardData {
   avatar: any;
   name: string;
-  role: string;
+  role?: string;
+  rating?: number;
 }
 
 declare interface FooterNavLink {
@@ -108,14 +109,27 @@ declare interface Job {
 
 declare interface Blog {
   content: string;
+  features?: string[];
+}
+
+declare interface BlogComment {
+  title: string;
+  review: string;
+  rating: number;
+  author: {
+    name: string;
+    role: string;
+    avatar: any;
+  };
 }
 
 declare interface BlogPost {
+  slug: string;
   title: string;
   description: string;
-  author: Omit<TeamMember, 'socials'>;
+  author: Omit<TeamMember, "socials">;
   image: any;
   blog: Blog;
   likes: number;
-  comments: number;
+  comments: BlogComment[];
 }

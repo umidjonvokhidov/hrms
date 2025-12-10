@@ -23,7 +23,7 @@ const CTA = () => {
               <Input
                 name="email"
                 placeholder="Your Email"
-                className="placeholder:text-white pr-10 text-white text-base font-normal"
+                className="placeholder:text-white border-white pr-10 text-white text-base font-normal"
               />
               <ArrowRight className="size-6 absolute top-1/2 -translate-y-1/2 text-white right-4" />
             </div>

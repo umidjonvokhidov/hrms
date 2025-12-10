@@ -3,8 +3,12 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@workspace/ui/components/avatar";
+import {
+  Rating,
+  RatingButton,
+} from "@workspace/ui/components/ui/shadcn-io/rating/index";
 
-const ProfileCard = ({ avatar, name, role }: ProfileCardData) => {
+const ProfileCard = ({ avatar, name, role, rating }: ProfileCardData) => {
   const initials = name
     .split(" ")
     .map((word) => word[0])
@@ -20,7 +24,15 @@ const ProfileCard = ({ avatar, name, role }: ProfileCardData) => {
       </Avatar>
       <div className="flex flex-col gap-y-0.5 items-start">
         <h4 className="font-bold text-xl">{name}</h4>
-        <p className="font-normal text-base text-dark-500">{role}</p>
+        {rating ? (
+          <Rating value={rating} readOnly>
+            {Array.from({ length: 5 }).map((_, index) => (
+              <RatingButton className="text-warning-400" key={index} />
+            ))}
+          </Rating>
+        ) : (
+          <p className="font-normal text-base text-dark-500">{role}</p>
+        )}
       </div>
     </div>
   );

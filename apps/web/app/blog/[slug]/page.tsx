@@ -240,7 +240,7 @@ const BlogDetailsPage = () => {
                     }}
                   />
                 </FieldGroup>
-                <Button className="w-full max-w-[180px]">Submit</Button>
+                <Button className="w-full sm:max-w-[180px]">Submit</Button>
               </form>
             </div>
           </div>

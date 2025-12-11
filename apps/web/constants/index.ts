@@ -151,31 +151,30 @@ export const KeyFeaturesData: KeyFeatureCardData[] = [
 export const allJobs: Job[] = [
   {
     title: "Senior Software Developer",
+    slug: "senior-software-developer",
     department: "Development",
     experience: "4 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are seeking a highly skilled Senior Software Developer to join our dynamic and innovative engineering team. As a technical leader, you will play a crucial role in architecting, developing, and maintaining our enterprise-level applications that serve thousands of users globally. This position offers the opportunity to work on cutting-edge technologies while mentoring junior developers and influencing our technical direction.</p>
-      
-      <h3>Key Responsibilities Overview</h3>
-      <p>In this role, you will lead the design and implementation of scalable, high-performance software solutions. You'll collaborate with product managers, designers, and other developers to translate business requirements into technical specifications and executable plans. We value developers who take ownership of their work, champion best practices, and continuously seek to improve our development processes.</p>
-      
-      <h3>Technical Environment</h3>
-      <ul>
-        <li><strong>Primary Stack:</strong> Node.js, React, TypeScript, AWS, Docker, Kubernetes</li>
-        <li><strong>Databases:</strong> PostgreSQL, MongoDB, Redis</li>
-        <li><strong>Methodologies:</strong> Agile/Scrum, CI/CD, Test-Driven Development</li>
-        <li><strong>Tools:</strong> Git, JIRA, Jenkins, GraphQL, RESTful APIs</li>
-      </ul>
-      
-      <h3>Project Examples</h3>
-      <p>You will contribute to projects such as our customer-facing portal, internal administration systems, real-time analytics dashboards, and API integrations with third-party services. Our current focus includes migrating monolithic applications to microservices architecture and implementing advanced security protocols across all platforms.</p>
-      
-      <h3>What Success Looks Like</h3>
-      <p>In your first 90 days, you'll be expected to lead at least one major feature development, participate in architectural decisions, and establish mentorship relationships with junior team members. Within six months, you should be driving process improvements and contributing to our technical roadmap.</p>
-      
-      <p><strong>Note:</strong> This position offers competitive compensation, comprehensive benefits, flexible work arrangements, and opportunities for professional growth and advancement within our rapidly expanding organization.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are seeking a highly skilled Senior Software Developer to join our dynamic and innovative engineering team. As a technical leader, you will play a crucial role in architecting, developing, and maintaining our enterprise-level applications that serve thousands of users globally. This position offers the opportunity to work on cutting-edge technologies while mentoring junior developers and influencing our technical direction.</p>
+
+<h4>Key Responsibilities Overview</h4>
+<p>In this role, you will lead the design and implementation of scalable, high-performance software solutions. You'll collaborate with product managers, designers, and other developers to translate business requirements into technical specifications and executable plans. We value developers who take ownership of their work, champion best practices, and continuously seek to improve our development processes.</p>
+
+<h4>Technical Environment</h4>
+<p><strong>Primary Stack:</strong> Node.js, React, TypeScript, AWS, Docker, Kubernetes.</p>
+<p><strong>Databases:</strong> PostgreSQL, MongoDB, Redis.</p>
+<p><strong>Methodologies:</strong> Agile/Scrum, CI/CD, Test-Driven Development.</p>
+<p><strong>Tools:</strong> Git, JIRA, Jenkins, GraphQL, RESTful APIs.</p>
+
+<h4>Project Examples</h4>
+<p>You will contribute to projects such as our customer-facing portal, internal administration systems, real-time analytics dashboards, and API integrations with third-party services. Our current focus includes migrating monolithic applications to microservices architecture and implementing advanced security protocols across all platforms.</p>
+
+<h4>What Success Looks Like</h4>
+<p>In your first 90 days, you'll be expected to lead at least one major feature development, participate in architectural decisions, and establish mentorship relationships with junior team members. Within six months, you should be driving process improvements and contributing to our technical roadmap.</p>
+
+<p><strong>Note:</strong> This position offers competitive compensation, comprehensive benefits, flexible work arrangements, and opportunities for professional growth and advancement within our rapidly expanding organization.</p>`,
     responsibilities: [
       "Design, develop, and maintain scalable software solutions using modern technologies and best practices",
       "Mentor and guide junior developers through code reviews, pair programming, and technical guidance sessions",
@@ -189,32 +188,31 @@ export const allJobs: Job[] = [
   },
   {
     title: "Lead UI/UX Designer",
+    slug: "lead-ui-ux-designer",
     department: "Design",
     experience: "2-3 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are seeking a creative and strategic Lead UI/UX Designer to join our product design team. In this role, you will be responsible for shaping the user experience across our entire product ecosystem, from web applications to mobile interfaces. You will lead design projects from initial concept through final implementation, ensuring our products are not only visually stunning but also intuitive and user-friendly.</p>
-      
-      <h3>Design Leadership</h3>
-      <p>As our Lead UI/UX Designer, you will establish and maintain our design system, create consistency across platforms, and set the standard for visual excellence. You'll work closely with product managers, developers, and stakeholders to translate complex requirements into elegant, user-centered solutions. This role requires both exceptional design skills and the ability to communicate design decisions effectively.</p>
-      
-      <h3>Design Process & Methodology</h3>
-      <ul>
-        <li><strong>Research:</strong> Conduct user interviews, surveys, and usability testing to inform design decisions</li>
-        <li><strong>Strategy:</strong> Develop user personas, journey maps, and information architecture</li>
-        <li><strong>Design:</strong> Create wireframes, prototypes, and high-fidelity mockups using industry-standard tools</li>
-        <li><strong>Implementation:</strong> Collaborate with developers to ensure pixel-perfect implementation of designs</li>
-        <li><strong>Validation:</strong> Measure design success through analytics and user feedback loops</li>
-      </ul>
-      
-      <h3>Tools & Technologies</h3>
-      <p>Our team primarily uses Figma for design and prototyping, complemented by Adobe Creative Suite for additional visual assets. Familiarity with design systems, component libraries, and accessibility standards (WCAG) is essential. Experience with user testing platforms like UserTesting or Maze is a plus.</p>
-      
-      <h3>Portfolio Expectations</h3>
-      <p>Successful candidates will present a portfolio demonstrating a strong understanding of user-centered design principles, showcasing projects that highlight problem-solving skills, and explaining the rationale behind design decisions. We're particularly interested in seeing case studies that show the impact of design on business metrics.</p>
-      
-      <p><strong>Note:</strong> This position offers the opportunity to build a design team as we grow, with potential for advancement to Design Director within 18-24 months.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are seeking a creative and strategic Lead UI/UX Designer to join our product design team. In this role, you will be responsible for shaping the user experience across our entire product ecosystem, from web applications to mobile interfaces. You will lead design projects from initial concept through final implementation, ensuring our products are not only visually stunning but also intuitive and user-friendly.</p>
+
+<h4>Design Leadership</h4>
+<p>As our Lead UI/UX Designer, you will establish and maintain our design system, create consistency across platforms, and set the standard for visual excellence. You'll work closely with product managers, developers, and stakeholders to translate complex requirements into elegant, user-centered solutions. This role requires both exceptional design skills and the ability to communicate design decisions effectively.</p>
+
+<h4>Design Process & Methodology</h4>
+<p><strong>Research:</strong> Conduct user interviews, surveys, and usability testing to inform design decisions.</p>
+<p><strong>Strategy:</strong> Develop user personas, journey maps, and information architecture.</p>
+<p><strong>Design:</strong> Create wireframes, prototypes, and high-fidelity mockups using industry-standard tools.</p>
+<p><strong>Implementation:</strong> Collaborate with developers to ensure pixel-perfect implementation of designs.</p>
+<p><strong>Validation:</strong> Measure design success through analytics and user feedback loops.</p>
+
+<h4>Tools & Technologies</h4>
+<p>Our team primarily uses Figma for design and prototyping, complemented by Adobe Creative Suite for additional visual assets. Familiarity with design systems, component libraries, and accessibility standards (WCAG) is essential. Experience with user testing platforms like UserTesting or Maze is a plus.</p>
+
+<h4>Portfolio Expectations</h4>
+<p>Successful candidates will present a portfolio demonstrating a strong understanding of user-centered design principles, showcasing projects that highlight problem-solving skills, and explaining the rationale behind design decisions. We're particularly interested in seeing case studies that show the impact of design on business metrics.</p>
+
+<p><strong>Note:</strong> This position offers the opportunity to build a design team as we grow, with potential for advancement to Design Director within 18-24 months.</p>`,
     responsibilities: [
       "Create and maintain comprehensive design systems and component libraries for consistency across all platforms",
       "Collaborate with product and engineering teams to ensure designs are feasible and implemented correctly",
@@ -228,32 +226,31 @@ export const allJobs: Job[] = [
   },
   {
     title: "Business Development Manager",
+    slug: "business-development-manager",
     department: "Sales",
     experience: "6-7 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are seeking an experienced and results-driven Business Development Manager to spearhead our expansion efforts in new markets and verticals. This senior role requires a strategic thinker with a proven track record of identifying and capitalizing on business opportunities. You will be responsible for developing and executing comprehensive business strategies to drive revenue growth and establish our company as a leader in the HR technology space.</p>
-      
-      <h3>Strategic Focus Areas</h3>
-      <p>In this position, you will focus on three primary areas: expanding our enterprise client base, developing strategic partnerships with complementary technology providers, and identifying new market opportunities. You'll work closely with the executive team to align business development efforts with company objectives and contribute to our long-term growth strategy.</p>
-      
-      <h3>Market Analysis & Opportunity Identification</h3>
-      <ul>
-        <li><strong>Market Research:</strong> Conduct thorough analysis of target industries, competitors, and market trends</li>
-        <li><strong>Lead Generation:</strong> Develop and implement strategies to identify and qualify high-value prospects</li>
-        <li><strong>Partnership Development:</strong> Identify and cultivate relationships with potential partners and channel allies</li>
-        <li><strong>Pricing Strategy:</strong> Contribute to pricing decisions based on market intelligence and competitive analysis</li>
-        <li><strong>Growth Forecasting:</strong> Develop accurate forecasts and contribute to revenue planning processes</li>
-      </ul>
-      
-      <h3>Target Industries</h3>
-      <p>Our primary focus includes enterprise clients in technology, healthcare, financial services, and manufacturing sectors. Experience selling to HR departments, IT leadership, or C-suite executives in these industries is highly valued. Knowledge of HR technology landscapes, compliance requirements, and digital transformation initiatives will be crucial for success.</p>
-      
-      <h3>Compensation & Growth</h3>
-      <p>This position offers a competitive base salary with uncapped commission potential, performance bonuses, and equity participation. Successful performance in this role can lead to advancement opportunities including Director of Business Development, VP of Sales, or other leadership positions within our growing organization.</p>
-      
-      <p><strong>Note:</strong> This role requires approximately 30% travel for client meetings, industry conferences, and partner engagements. We provide comprehensive support including a dedicated sales development representative, marketing resources, and state-of-the-art sales enablement tools.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are seeking an experienced and results-driven Business Development Manager to spearhead our expansion efforts in new markets and verticals. This senior role requires a strategic thinker with a proven track record of identifying and capitalizing on business opportunities. You will be responsible for developing and executing comprehensive business strategies to drive revenue growth and establish our company as a leader in the HR technology space.</p>
+
+<h4>Strategic Focus Areas</h4>
+<p>In this position, you will focus on three primary areas: expanding our enterprise client base, developing strategic partnerships with complementary technology providers, and identifying new market opportunities. You'll work closely with the executive team to align business development efforts with company objectives and contribute to our long-term growth strategy.</p>
+
+<h4>Market Analysis & Opportunity Identification</h4>
+<p><strong>Market Research:</strong> Conduct thorough analysis of target industries, competitors, and market trends.</p>
+<p><strong>Lead Generation:</strong> Develop and implement strategies to identify and qualify high-value prospects.</p>
+<p><strong>Partnership Development:</strong> Identify and cultivate relationships with potential partners and channel allies.</p>
+<p><strong>Pricing Strategy:</strong> Contribute to pricing decisions based on market intelligence and competitive analysis.</p>
+<p><strong>Growth Forecasting:</strong> Develop accurate forecasts and contribute to revenue planning processes.</p>
+
+<h4>Target Industries</h4>
+<p>Our primary focus includes enterprise clients in technology, healthcare, financial services, and manufacturing sectors. Experience selling to HR departments, IT leadership, or C-suite executives in these industries is highly valued. Knowledge of HR technology landscapes, compliance requirements, and digital transformation initiatives will be crucial for success.</p>
+
+<h4>Compensation & Growth</h4>
+<p>This position offers a competitive base salary with uncapped commission potential, performance bonuses, and equity participation. Successful performance in this role can lead to advancement opportunities including Director of Business Development, VP of Sales, or other leadership positions within our growing organization.</p>
+
+<p><strong>Note:</strong> This role requires approximately 30% travel for client meetings, industry conferences, and partner engagements. We provide comprehensive support including a dedicated sales development representative, marketing resources, and state-of-the-art sales enablement tools.</p>`,
     responsibilities: [
       "Identify and pursue new business opportunities through targeted outreach, networking, and strategic initiatives",
       "Develop and manage strategic partnerships that expand our market reach and enhance our product offerings",
@@ -267,32 +264,31 @@ export const allJobs: Job[] = [
   },
   {
     title: "Business Analyst",
+    slug: "business-analyst",
     department: "Sales",
     experience: "4 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are seeking a detail-oriented and analytical Business Analyst to join our growing organization. In this role, you will serve as a critical bridge between business stakeholders and technical teams, translating business needs into actionable requirements and specifications. You will be responsible for analyzing processes, identifying improvement opportunities, and supporting the implementation of solutions that drive efficiency and effectiveness across the organization.</p>
-      
-      <h3>Analytical Framework</h3>
-      <p>As a Business Analyst, you will employ various analytical techniques including process mapping, data analysis, requirements gathering, and impact assessment. You'll work on diverse projects ranging from system implementations to process optimizations, providing insights that inform strategic decisions and operational improvements.</p>
-      
-      <h3>Core Analytical Activities</h3>
-      <ul>
-        <li><strong>Requirements Elicitation:</strong> Conduct interviews, workshops, and surveys to gather comprehensive business requirements</li>
-        <li><strong>Process Analysis:</strong> Document current state processes and design optimized future state workflows</li>
-        <li><strong>Data Analysis:</strong> Analyze datasets to identify trends, patterns, and opportunities for improvement</li>
-        <li><strong>Solution Assessment:</strong> Evaluate potential solutions against business requirements and constraints</li>
-        <li><strong>Impact Analysis:</strong> Assess the potential impact of changes on processes, systems, and stakeholders</li>
-      </ul>
-      
-      <h3>Tools & Methodologies</h3>
-      <p>You will utilize a variety of tools including JIRA for requirements management, SQL for data analysis, Visio or Lucidchart for process mapping, and Excel for data manipulation and reporting. Familiarity with Agile methodologies, business intelligence tools, and project management frameworks will be valuable in this role.</p>
-      
-      <h3>Project Involvement</h3>
-      <p>You will support projects across multiple domains including sales operations, customer success, marketing automation, and internal systems. Recent projects include CRM optimization, sales forecasting improvements, customer segmentation analysis, and automation of manual reporting processes.</p>
-      
-      <p><strong>Note:</strong> This position offers opportunities for certification support (CBAP, PMI-PBA) and professional development. Successful analysts may progress to senior analyst roles, product ownership positions, or project management tracks within the organization.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are seeking a detail-oriented and analytical Business Analyst to join our growing organization. In this role, you will serve as a critical bridge between business stakeholders and technical teams, translating business needs into actionable requirements and specifications. You will be responsible for analyzing processes, identifying improvement opportunities, and supporting the implementation of solutions that drive efficiency and effectiveness across the organization.</p>
+
+<h4>Analytical Framework</h4>
+<p>As a Business Analyst, you will employ various analytical techniques including process mapping, data analysis, requirements gathering, and impact assessment. You'll work on diverse projects ranging from system implementations to process optimizations, providing insights that inform strategic decisions and operational improvements.</p>
+
+<h4>Core Analytical Activities</h4>
+<p><strong>Requirements Elicitation:</strong> Conduct interviews, workshops, and surveys to gather comprehensive business requirements.</p>
+<p><strong>Process Analysis:</strong> Document current state processes and design optimized future state workflows.</p>
+<p><strong>Data Analysis:</strong> Analyze datasets to identify trends, patterns, and opportunities for improvement.</p>
+<p><strong>Solution Assessment:</strong> Evaluate potential solutions against business requirements and constraints.</p>
+<p><strong>Impact Analysis:</strong> Assess the potential impact of changes on processes, systems, and stakeholders.</p>
+
+<h4>Tools & Methodologies</h4>
+<p>You will utilize a variety of tools including JIRA for requirements management, SQL for data analysis, Visio or Lucidchart for process mapping, and Excel for data manipulation and reporting. Familiarity with Agile methodologies, business intelligence tools, and project management frameworks will be valuable in this role.</p>
+
+<h4>Project Involvement</h4>
+<p>You will support projects across multiple domains including sales operations, customer success, marketing automation, and internal systems. Recent projects include CRM optimization, sales forecasting improvements, customer segmentation analysis, and automation of manual reporting processes.</p>
+
+<p><strong>Note:</strong> This position offers opportunities for certification support (CBAP, PMI-PBA) and professional development. Successful analysts may progress to senior analyst roles, product ownership positions, or project management tracks within the organization.</p>`,
     responsibilities: [
       "Analyze complex business processes and workflows, identifying inefficiencies and recommending improvements",
       "Prepare detailed reports, presentations, and documentation to communicate findings and recommendations to stakeholders",
@@ -306,33 +302,32 @@ export const allJobs: Job[] = [
   },
   {
     title: "React JS Developer",
+    slug: "react-js-developer",
     department: "Development",
     experience: "3 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are hiring a skilled React JS Developer to join our frontend development team. In this role, you will be responsible for building responsive, interactive, and high-performance web applications using modern React ecosystems. You will work closely with designers, backend developers, and product managers to create exceptional user experiences that meet business objectives and technical requirements.</p>
-      
-      <h3>Technical Focus</h3>
-      <p>As a React JS Developer, you will focus on creating reusable components, optimizing application performance, and ensuring code quality through testing and code reviews. You'll work with the latest versions of React and related libraries, contributing to architectural decisions and staying current with evolving best practices in frontend development.</p>
-      
-      <h3>Technology Stack</h3>
-      <ul>
-        <li><strong>Core Framework:</strong> React 18+, TypeScript, Next.js</li>
-        <li><strong>State Management:</strong> Redux Toolkit, Context API, React Query</li>
-        <li><strong>Styling:</strong> Styled Components, Tailwind CSS, CSS Modules</li>
-        <li><strong>Testing:</strong> Jest, React Testing Library, Cypress</li>
-        <li><strong>Build Tools:</strong> Webpack, Vite, ESLint, Prettier</li>
-        <li><strong>APIs:</strong> REST, GraphQL, WebSocket for real-time features</li>
-      </ul>
-      
-      <h3>Project Examples</h3>
-      <p>You will contribute to projects including our customer dashboard, administration panel, real-time collaboration features, and mobile-responsive web applications. Current initiatives include migrating class components to functional components with hooks, implementing server-side rendering for improved SEO, and optimizing bundle sizes for faster load times.</p>
-      
-      <h3>Development Practices</h3>
-      <p>Our team follows Agile methodologies with two-week sprints, daily standups, and regular retrospectives. We emphasize code quality through peer reviews, automated testing, and continuous integration. You'll have opportunities to contribute to our component library, participate in technical spike activities, and mentor junior developers as you grow in the role.</p>
-      
-      <p><strong>Note:</strong> This position offers competitive compensation, remote-friendly work arrangements, professional development budget for conferences and courses, and a collaborative team environment focused on technical excellence.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are hiring a skilled React JS Developer to join our frontend development team. In this role, you will be responsible for building responsive, interactive, and high-performance web applications using modern React ecosystems. You will work closely with designers, backend developers, and product managers to create exceptional user experiences that meet business objectives and technical requirements.</p>
+
+<h4>Technical Focus</h4>
+<p>As a React JS Developer, you will focus on creating reusable components, optimizing application performance, and ensuring code quality through testing and code reviews. You'll work with the latest versions of React and related libraries, contributing to architectural decisions and staying current with evolving best practices in frontend development.</p>
+
+<h4>Technology Stack</h4>
+<p><strong>Core Framework:</strong> React 18+, TypeScript, Next.js.</p>
+<p><strong>State Management:</strong> Redux Toolkit, Context API, React Query.</p>
+<p><strong>Styling:</strong> Styled Components, Tailwind CSS, CSS Modules.</p>
+<p><strong>Testing:</strong> Jest, React Testing Library, Cypress.</p>
+<p><strong>Build Tools:</strong> Webpack, Vite, ESLint, Prettier.</p>
+<p><strong>APIs:</strong> REST, GraphQL, WebSocket for real-time features.</p>
+
+<h4>Project Examples</h4>
+<p>You will contribute to projects including our customer dashboard, administration panel, real-time collaboration features, and mobile-responsive web applications. Current initiatives include migrating class components to functional components with hooks, implementing server-side rendering for improved SEO, and optimizing bundle sizes for faster load times.</p>
+
+<h4>Development Practices</h4>
+<p>Our team follows Agile methodologies with two-week sprints, daily standups, and regular retrospectives. We emphasize code quality through peer reviews, automated testing, and continuous integration. You'll have opportunities to contribute to our component library, participate in technical spike activities, and mentor junior developers as you grow in the role.</p>
+
+<p><strong>Note:</strong> This position offers competitive compensation, remote-friendly work arrangements, professional development budget for conferences and courses, and a collaborative team environment focused on technical excellence.</p>`,
     responsibilities: [
       "Build and maintain responsive React applications following best practices for performance, accessibility, and maintainability",
       "Write clean, efficient, and well-documented code with appropriate test coverage using testing frameworks",
@@ -346,32 +341,31 @@ export const allJobs: Job[] = [
   },
   {
     title: "Social Media Marketing Specialist",
+    slug: "social-media-marketing-specialist",
     department: "Marketing",
     experience: "0-1 Years",
     type: "Full-Time",
     location: "California",
-    jobDescription: `<h2>About the Role</h2>
-      <p>We are seeking a creative and data-driven Social Media Marketing Specialist to join our growing marketing team. This entry-level position is perfect for someone passionate about digital marketing, storytelling, and building online communities. You will be responsible for developing and executing social media strategies that increase brand awareness, engage our audience, and support our business objectives across multiple platforms.</p>
-      
-      <h3>Social Media Strategy</h3>
-      <p>As our Social Media Marketing Specialist, you will manage our presence across key platforms including LinkedIn, Twitter, Instagram, and Facebook. You'll develop content calendars, create engaging posts, monitor conversations, and analyze performance to continuously improve our social media efforts. This role combines creative content creation with analytical thinking to maximize impact.</p>
-      
-      <h3>Platform Responsibilities</h3>
-      <ul>
-        <li><strong>LinkedIn:</strong> Establish thought leadership through industry insights, company updates, and professional content</li>
-        <li><strong>Twitter:</strong> Engage in industry conversations, share quick updates, and provide customer support</li>
-        <li><strong>Instagram:</strong> Showcase company culture, employee stories, and visual content that humanizes our brand</li>
-        <li><strong>Facebook:</strong> Share broader company news, events, and community-focused content</li>
-        <li><strong>YouTube/TikTok:</strong> Develop video content strategies as we expand into emerging platforms</li>
-      </ul>
-      
-      <h3>Content Creation & Management</h3>
-      <p>You will create various content types including graphics (using Canva or Adobe Creative tools), short-form videos, blog post snippets, infographics, and interactive content. You'll work with our content team to repurpose long-form content for social media and collaborate with designers on visual assets. Familiarity with social media management tools like Hootsuite, Buffer, or Sprout Social is expected.</p>
-      
-      <h3>Analytics & Reporting</h3>
-      <p>This role requires both creative and analytical skills. You will track key metrics including engagement rates, follower growth, click-through rates, and conversion metrics. Monthly reporting will include insights, recommendations, and ROI analysis for social media activities. Experience with Google Analytics and social media analytics platforms is a plus.</p>
-      
-      <p><strong>Note:</strong> This is an excellent opportunity for someone starting their career in digital marketing. We provide comprehensive training, mentorship from senior marketers, and opportunities for growth into broader marketing roles. Successful performance could lead to advancement to Social Media Manager or broader digital marketing positions within 18-24 months.</p>`,
+    jobDescription: `<h4>About the Role</h4>
+<p>We are seeking a creative and data-driven Social Media Marketing Specialist to join our growing marketing team. This entry-level position is perfect for someone passionate about digital marketing, storytelling, and building online communities. You will be responsible for developing and executing social media strategies that increase brand awareness, engage our audience, and support our business objectives across multiple platforms.</p>
+
+<h4>Social Media Strategy</h4>
+<p>As our Social Media Marketing Specialist, you will manage our presence across key platforms including LinkedIn, Twitter, Instagram, and Facebook. You'll develop content calendars, create engaging posts, monitor conversations, and analyze performance to continuously improve our social media efforts. This role combines creative content creation with analytical thinking to maximize impact.</p>
+
+<h4>Platform Responsibilities</h4>
+<p><strong>LinkedIn:</strong> Establish thought leadership through industry insights, company updates, and professional content.</p>
+<p><strong>Twitter:</strong> Engage in industry conversations, share quick updates, and provide customer support.</p>
+<p><strong>Instagram:</strong> Showcase company culture, employee stories, and visual content that humanizes our brand.</p>
+<p><strong>Facebook:</strong> Share broader company news, events, and community-focused content.</p>
+<p><strong>YouTube/TikTok:</strong> Develop video content strategies as we expand into emerging platforms.</p>
+
+<h4>Content Creation & Management</h4>
+<p>You will create various content types including graphics (using Canva or Adobe Creative tools), short-form videos, blog post snippets, infographics, and interactive content. You'll work with our content team to repurpose long-form content for social media and collaborate with designers on visual assets. Familiarity with social media management tools like Hootsuite, Buffer, or Sprout Social is expected.</p>
+
+<h4>Analytics & Reporting</h4>
+<p>This role requires both creative and analytical skills. You will track key metrics including engagement rates, follower growth, click-through rates, and conversion metrics. Monthly reporting will include insights, recommendations, and ROI analysis for social media activities. Experience with Google Analytics and social media analytics platforms is a plus.</p>
+
+<p><strong>Note:</strong> This is an excellent opportunity for someone starting their career in digital marketing. We provide comprehensive training, mentorship from senior marketers, and opportunities for growth into broader marketing roles. Successful performance could lead to advancement to Social Media Manager or broader digital marketing positions within 18-24 months.</p>`,
     responsibilities: [
       "Manage daily operations of social media accounts including content posting, community engagement, and monitoring",
       "Develop and implement comprehensive social media marketing campaigns aligned with business objectives and brand voice",
@@ -384,6 +378,9 @@ export const allJobs: Job[] = [
     ],
   },
 ];
+
+
+
 
 export const aboutCompanyCards: AboutCompanyCard[] = [
   {

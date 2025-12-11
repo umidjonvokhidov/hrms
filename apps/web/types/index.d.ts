@@ -3,6 +3,16 @@ declare interface NavLink {
   href: string;
 }
 
+declare interface FilterInputProps {
+  className?: string;
+  icon: React.ElementType;
+  placeholder: string;
+  name: string;
+  selectOptions?: string[];
+  onChange: (value: any) => void;
+  value: string;
+}
+
 declare interface Heading {
   size: "lg" | "xl";
   className: string;
@@ -98,6 +108,7 @@ declare interface TeamMember {
 }
 
 declare interface Job {
+  slug: string;
   title: string;
   department: string;
   experience: string;

@@ -17,23 +17,23 @@ const Footer = () => {
       <div className="bg-dark-500 w-full">
         <div className="w-full max-w-[1440px] flex flex-col py-6 px-4 mx-auto sm:px-6 md:px-10 lg:px-[100px] md:py-8 gap-y-6">
           <div className="w-full flex-col lg:flex-row gap-y-6 flex justify-between gap-x-10 items-start">
-            <div className="flex flex-col sm:flex-row lg:flex-col justify-between w-full lg:max-w-[320px] gap-y-5.5">
-              <FooterLogo className="shrink-0 w-auto h-[50px]" />
+            <div className="flex flex-col sm:flex-row lg:flex-col items-start w-full lg:max-w-[320px] gap-y-5.5">
+              <FooterLogo className="shrink-0 w-[148px] h-[51px]" />
               <div className="flex flex-col gap-y-4 lg:items-start">
                 <div className="flex items-center gap-x-3">
-                  <PhoneIcon className="shrink-0 size-6" /> 
+                  <PhoneIcon className="shrink-0 text-white size-6" /> 
                   <span className="text-white text-base font-normal">
                     (808) 555-0111
                   </span>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <EmailIcon className="shrink-0 size-6" />{" "}
+                  <EmailIcon className="shrink-0 text-white size-6" />{" "}
                   <span className="text-white text-base font-normal">
                     hrms@example.com
                   </span>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <LocationIcon className="shrink-0 size-6" />{" "}
+                  <LocationIcon className="shrink-0 text-white size-6" />{" "}
                   <span className="text-white text-base font-normal">
                     2464 Royal Ln. Mesa, New Jersey 45463
                   </span>

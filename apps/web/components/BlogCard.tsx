@@ -26,10 +26,10 @@ const BlogCard = ({
       <div className="flex flex-col gap-y-4">
         <div className="flex items-center gap-x-4">
           <div className="flex items-center gap-x-1.5 text-base text-dark-500 font-normal">
-            <LikeIcon className="w-auto h-auto"/> {likes} Likes
+            <LikeIcon className="size-6"/> {likes} Likes
           </div>
           <div className="flex items-center gap-x-1.5 text-base text-dark-500 font-normal">
-            <CommentIcon className="w-auto h-auto" /> {comments.length} Comments
+            <CommentIcon className="size-6" /> {comments.length} Comments
           </div>
         </div>
         <div className="flex flex-col gap-y-2">

@@ -88,10 +88,10 @@ const BlogDetailsPage = () => {
               <div className="flex flex-col gap-y-4 pb-6 border-b border-gray-100">
                 <div className="flex items-center gap-x-4">
                   <div className="flex items-center gap-x-1.5 text-base text-dark-500 font-normal">
-                    <LikeIcon className="w-auto h-auto"/> {blog.likes} Likes
+                    <LikeIcon className="size-6"/> {blog.likes} Likes
                   </div>
                   <div className="flex items-center gap-x-1.5 text-base text-dark-500 font-normal">
-                    <CommentIcon className="w-auto h-auto" /> {blog.comments.length} Comments
+                    <CommentIcon className="size-6" /> {blog.comments.length} Comments
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-2">
@@ -121,7 +121,7 @@ const BlogDetailsPage = () => {
                       key={index}
                       className="flex items-center gap-x-2.5 text-dark-500"
                     >
-                      <CheckIcon className="text-primary shrink-0 w-auto h-auto" /> {feature}
+                      <CheckIcon className="text-primary shrink-0 size-6" /> {feature}
                     </li>
                   ))}
                 </ul>

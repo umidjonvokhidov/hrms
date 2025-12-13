@@ -35,7 +35,7 @@ const JobDetailsPage = () => {
                       key={index}
                       className="flex items-center gap-x-2.5 text-dark-500"
                     >
-                      <CheckIcon className="text-primary shrink-0" /> {feature}
+                      <CheckIcon className="text-primary shrink-0 size-6" /> {feature}
                     </li>
                   ))}
                 </ul>

@@ -36,7 +36,7 @@ const PricingCard = ({
             key={id}
             className="flex items-center gap-x-3 text-base text-dark-500 group-even:text-white font-normal"
           >
-            <CheckCircle className="w-auto h-auto"/> {benefit}
+            <CheckCircle className="size-6"/> {benefit}
           </li>
         ))}
       </ul>

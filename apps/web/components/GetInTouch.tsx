@@ -14,7 +14,6 @@ import * as z from "zod";
 import { toast } from "sonner";
 import {
   Field,
-  FieldDescription,
   FieldError,
   FieldGroup,
   FieldLabel,
@@ -66,16 +65,17 @@ const GetInTouch = () => {
       } as React.CSSProperties,
     });
   }
-  
+
   return (
     <section className="section-layout">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2 max-w-[1240px] mx-auto">
         <div className="flex flex-col gap-y-10">
           <div className="flex flex-col gap-y-2">
-            <h2 className="text-dark-500 text-4xl md:text-5xl font-bold">Get in Touch</h2>
+            <h2 className="text-dark-500 text-4xl md:text-5xl font-bold">
+              Get in Touch
+            </h2>
             <p className="text-base md:text-lg font-normal text-gray-700">
-              Using it can make you sound like you have been studying english
-              for a long time. Here's the challenge
+              Using it can make you sound like you have been studying english for a long time. Here's the challenge
             </p>
           </div>
           <div className="flex flex-col gap-y-8">

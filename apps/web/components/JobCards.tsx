@@ -12,9 +12,7 @@ const JobCards = () => {
           {
             department,
             experience,
-            jobDescription,
             location,
-            responsibilities,
             title,
             type,
             slug

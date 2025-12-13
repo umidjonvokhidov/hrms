@@ -6,7 +6,6 @@ import Link from "next/link";
 
 const BlogCard = ({
   author,
-  blog,
   slug,
   comments,
   description,

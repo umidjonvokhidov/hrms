@@ -6,7 +6,6 @@ const PricingCard = ({
   description,
   plan,
   price,
-  slug,
 }: PricingCardData) => {
   return (
     <div className="flex flex-col gap-y-6 p-6 group bg-white even:bg-primary border border-gray-100 even:border-primary rounded-2xl">

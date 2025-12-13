@@ -18,22 +18,22 @@ const Footer = () => {
         <div className="w-full max-w-[1440px] flex flex-col py-6 px-4 mx-auto sm:px-6 md:px-10 lg:px-[100px] md:py-8 gap-y-6">
           <div className="w-full flex-col lg:flex-row gap-y-6 flex justify-between gap-x-10 items-start">
             <div className="flex flex-col sm:flex-row lg:flex-col justify-between w-full lg:max-w-[320px] gap-y-5.5">
-              <FooterLogo className="shrink-0" />
+              <FooterLogo className="shrink-0 w-auto h-auto" />
               <div className="flex flex-col gap-y-4 lg:items-start">
                 <div className="flex items-center gap-x-3">
-                  <PhoneIcon className="shrink-0" /> 
+                  <PhoneIcon className="shrink-0 w-auto h-auto" /> 
                   <span className="text-white text-base font-normal">
                     (808) 555-0111
                   </span>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <EmailIcon className="shrink-0" />{" "}
+                  <EmailIcon className="shrink-0 w-auto h-auto" />{" "}
                   <span className="text-white text-base font-normal">
                     hrms@example.com
                   </span>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <LocationIcon className="shrink-0" />{" "}
+                  <LocationIcon className="shrink-0 w-auto h-auto" />{" "}
                   <span className="text-white text-base font-normal">
                     2464 Royal Ln. Mesa, New Jersey 45463
                   </span>
@@ -67,13 +67,13 @@ const Footer = () => {
             <p className="text-white">©2023 HRMS All Rights are reserved</p>
             <div className="flex items-center gap-5">
               <Link href={"facebook.com"} className="group">
-                <FacebookIcon className="group-hover:text-primary text-white transition-colors"/>
+                <FacebookIcon className="group-hover:text-primary text-white w-auto h-auto transition-colors"/>
               </Link>
               <Link href={"instagram.com"} className="group">
-                <InstagramIcon className="group-hover:text-primary text-white transition-colors"/>
+                <InstagramIcon className="group-hover:text-primary text-white w-auto h-auto transition-colors"/>
               </Link>
               <Link href={"x.com"} className="group">
-                <XIcon className="group-hover:text-primary text-white transition-colors"/>
+                <XIcon className="group-hover:text-primary text-white w-auto h-auto transition-colors"/>
               </Link>
             </div>
           </div>

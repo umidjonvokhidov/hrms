@@ -10,7 +10,7 @@ const CollaborationCard = ({
   return (
     <div className="flex flex-col items-start bg-white rounded-2xl border border-gray-50 hover:shadow-primary-950 transition-all shadow-2xl hover:shadow-2xs p-6">
       <div className="flex justify-between items-start w-full">
-        <Icon />
+        <Icon className="w-auto h-auto" />
         <Link
           className="p-4 -rotate-45 rounded-full border border-gray-200 group hover:border-primary hover:bg-primary transition-all hover:text-white text-dark-500"
           href={link}

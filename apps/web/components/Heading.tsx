@@ -43,12 +43,12 @@ const Heading = ({
         )}
         {title && size === "xl" ? (
           <h1 className="relative w-auto mx-auto text-4xl md:text-5xl lg:text-6xl text-dark-500 leading-tight text-center font-bold">
-            <TextDec className="shrink-0 absolute inline-flex scale-80 md:scale-90 lg:scale-100 -translate-y-5 -translate-x-7 md:-translate-y-4.5 md:-translate-x-7 lg:-translate-y-4 lg:-translate-x-7.5" />
+            <TextDec className="shrink-0 w-auto h-auto absolute inline-flex scale-80 md:scale-90 lg:scale-100 -translate-y-5 -translate-x-7 md:-translate-y-4.5 md:-translate-x-7 lg:-translate-y-4 lg:-translate-x-7.5" />
             {title}
           </h1>
         ) : (
           <h2 className="relative w-auto mx-auto text-3xl md:text-4xl lg:text-5xl text-dark-500 leading-tight text-center font-bold">
-            <TextDec className="shrink-0 absolute inline-flex scale-80 md:scale-90 lg:scale-100 -translate-y-6 -translate-x-7 md:-translate-y-6 md:-translate-x-6.5 lg:-translate-y-6.5 lg:-translate-x-6.5" />
+            <TextDec className="shrink-0 w-auto h-auto absolute inline-flex scale-80 md:scale-90 lg:scale-100 -translate-y-6 -translate-x-7 md:-translate-y-6 md:-translate-x-6.5 lg:-translate-y-6.5 lg:-translate-x-6.5" />
             {title}
           </h2>
         )}

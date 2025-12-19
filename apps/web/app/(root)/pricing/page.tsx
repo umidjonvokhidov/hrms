@@ -2,6 +2,11 @@ import Heading from "@/components/Heading";
 import PricingCards from "@/components/PricingCards";
 import Pattern from "@workspace/assets/essentials/pattern.png";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'We Provide Various Packages For You',
+};
 
 const PricingPage = () => {
   return (

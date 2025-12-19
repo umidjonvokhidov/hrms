@@ -2,6 +2,11 @@ import AllBlogs from "@/components/AllBlogs";
 import Heading from "@/components/Heading";
 import Pattern from "@workspace/assets/essentials/pattern.png";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Knowledge Base Ultimate HRMS Support Tool',
+};
 
 const BlogPage = () => {
   return (

@@ -2,6 +2,11 @@ import GetInTouch from "@/components/GetInTouch";
 import Heading from "@/components/Heading";
 import Pattern from "@workspace/assets/essentials/pattern.png";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'We Had Love To Hear From You',
+};
 
 const ContactUsPage = () => {
   return (

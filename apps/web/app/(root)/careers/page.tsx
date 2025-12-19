@@ -2,6 +2,11 @@ import AllJobs from "@/components/AllJobs";
 import Heading from "@/components/Heading";
 import Pattern from "@workspace/assets/essentials/pattern.png";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Find Your Dream Job At HRMS',
+};
 
 const CareersPage = () => {
   return (

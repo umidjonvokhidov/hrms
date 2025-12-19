@@ -7,6 +7,11 @@ import OurTeam from "@/components/OurTeam";
 import Testimonials from "@/components/Testimonials";
 import Pattern from "@workspace/assets/essentials/pattern.png";
 import Image from "next/image";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Our Product Dedicate To Make Your HRMS Smoother',
+};
 
 const AboutUsPage = () => {
   return (
